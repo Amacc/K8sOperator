@@ -9,7 +9,13 @@ with this module and can be deployed into a kubernetes cluster as a controller.
 First build a CRD or inherit from BaseCRD as shown in the bot example
 then build a controller, you can do this from scratch but a helper has been
 created and can be used to help with this. There is a [script](bin/buildController.ps1)
-in bin that can be sourced that will load up a controller. This controller
+in bin that can be sourced that will load up a controller.
+
+```powershell
+. .\bin\buildController.ps1
+```
+
+This controller
 can then be piped into Start-K8sController.
 
 ```powershell

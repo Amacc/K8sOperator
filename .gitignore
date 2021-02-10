@@ -1,0 +1,10 @@
+
+.ignore
+
+.ionide
+.fake
+
+# Any built assemblies
+.build
+assemblies
+obj
